@@ -11,7 +11,7 @@
 }
 
 body {
-    background-color: var(--black-p);
+    background-color: var(--gray-p);
 }
 
 .home-container {
@@ -54,7 +54,7 @@ body {
 }
 
 .home-container__button__custom {
-    background-color: var(--gray-p);
+    background-color: var(--black-p);
     color: var(--white-p);
     font-family: var(--text-p);
     font-weight: bolder;

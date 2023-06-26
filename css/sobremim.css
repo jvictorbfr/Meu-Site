@@ -1,0 +1,125 @@
+/*VARIÁVEIS*/
+:root {
+    /*CORES PRINCIPAIS*/
+    --gray-p: #66717E;
+    --white-p: #FFFCF9;
+    --lightblue-p: #B1EDE8;
+    --black-p: #0B090B; 
+    
+    /*FONTE*/
+    --text-p: sans-serif;
+}
+
+body {
+    background-color: var(--gray-p);
+}
+
+.back-site {
+    position: fixed;
+    top: 25px;
+    left: 35px;
+}
+
+.back-site__title {
+    color: var(--white-p);
+    font-family: var(--text-p);
+    font-weight: bolder;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    user-select: none;
+}
+
+.back-site__title:hover {
+    color: var(--lightblue-p);
+}
+
+.whoisme-container {
+    width: 350px;
+    height: 280px;
+    margin-top: 150px;
+    margin-left: 200px;
+    background-color: var(--white-p);
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: -9px 9px 8px var(--black-p);
+    transition: transform 0.1s ease;
+}
+
+.whatdoido-container {
+    width: 350px;
+    height: 380px;
+    margin-top: 50px;
+    margin-left: 850px;
+    background-color: var(--white-p);
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 9px 9px 8px var(--black-p);
+    transition: transform 0.1s ease;
+}
+
+.skills-container {
+    width: 350px;
+    height: 330px;
+    margin-top: 50px;
+    margin-left: 200px;
+    background-color: var(--white-p);
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: -9px 9px 8px var(--black-p);
+    transition: transform 0.1s ease;
+}
+
+.hobbies-container {
+    width: 350px;
+    height: 280px;
+    margin-top: 50px;
+    margin-left: 850px;
+    margin-bottom: 100px;
+    background-color: var(--white-p);
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 9px 9px 8px var(--black-p);
+    transition: transform 0.1s ease;
+}
+
+.whoisme-container:hover,
+.whatdoido-container:hover,
+.skills-container:hover,
+.hobbies-container:hover {
+    transform: scale(1.1);
+  }
+
+.whoisme-container__title,
+.whatdoido-container__title,
+.skills-container__title,
+.hobbies-container__title {
+    color: var(--black-p);
+    font-family: var(--text-p);
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: center;
+}
+
+.whoisme-container__content,
+.whatdoido-container__content,
+.skills-container__content,
+.hobbies-container__content {
+    color: var(--gray-p);
+    font-family: var(--text-p);
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.whoisme-container__title::selection,
+.whoisme-container__content::selection,
+.whatdoido-container__title::selection,
+.whatdoido-container__content::selection,
+.skills-container__title::selection,
+.skills-container__content::selection,
+.hobbies-container__title::selection,
+.hobbies-container__content::selection {
+    color: var(--lightblue-p);
+    background-color: var(--gray-p);
+}
