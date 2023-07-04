@@ -31,8 +31,9 @@ body {
     width: 250px;
     height: 250px;
     margin-top: 30px;
-    border: 3px solid var(--lightblue-p);
-    border-radius: 5px;
+    border: 3px solid var(--black-p);
+    border-radius: 1px;
+    box-shadow: 0 0 20px var(--black-p);
     user-select: none;
 }
 

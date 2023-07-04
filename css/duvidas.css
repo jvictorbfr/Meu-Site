@@ -4,8 +4,8 @@
     --gray-p: #66717E;
     --white-p: #FFFCF9;
     --lightblue-p: #B1EDE8;
-    --black-p: #0B090B; 
-    
+    --black-p: #0B090B;
+
     /*FONTE*/
     --text-p: sans-serif;
 }
@@ -54,59 +54,34 @@ body {
     color: var(--lightblue-p);
 }
 
-.whoisme-container {
-    width: 350px;
-    height: 280px;
-    margin-top: 150px;
+.doubts-container {
+    width: 1050px;
+    height: 510px;
+    margin-top: 130px;
     margin-left: 200px;
     background-color: var(--white-p);
     border: 3px solid var(--black-p);
     border-radius: 8px;
     padding: 30px;
-    box-shadow: -9px 9px 8px var(--black-p);
+    overflow-y: auto;
 }
 
-.whatdoido-container {
-    width: 350px;
-    height: 380px;
-    margin-top: 50px;
-    margin-left: 850px;
+.doubts-container::-webkit-scrollbar {
+    width: 10px;
     background-color: var(--white-p);
-    border: 3px solid var(--black-p);
     border-radius: 8px;
-    padding: 30px;
-    box-shadow: 9px 9px 8px var(--black-p);
+}
+  
+.doubts-container::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 8px;
+}
+  
+.doubts-container::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
 }
 
-.skills-container {
-    width: 350px;
-    height: 330px;
-    margin-top: 50px;
-    margin-left: 200px;
-    background-color: var(--white-p);
-    border: 3px solid var(--black-p);
-    border-radius: 8px;
-    padding: 30px;
-    box-shadow: -9px 9px 8px var(--black-p);
-}
-
-.hobbies-container {
-    width: 350px;
-    height: 280px;
-    margin-top: 50px;
-    margin-left: 850px;
-    margin-bottom: 100px;
-    background-color: var(--white-p);
-    border: 3px solid var(--black-p);
-    border-radius: 8px;
-    padding: 30px;
-    box-shadow: 9px 9px 8px var(--black-p);
-}
-
-.whoisme-container__title,
-.whatdoido-container__title,
-.skills-container__title,
-.hobbies-container__title {
+.doubts-container__title {
     color: var(--black-p);
     font-family: var(--text-p);
     font-weight: bolder;
@@ -114,25 +89,24 @@ body {
     text-align: center;
 }
 
-.whoisme-container__content,
-.whatdoido-container__content,
-.skills-container__content,
-.hobbies-container__content {
+.doubts-container__questions {
+    color: var(--black-p);
+    font-family: var(--text-p);
+    font-weight: bolder;
+    font-size: 20px;
+    margin-top: 45px;
+}
+
+.doubts-container__content {
     color: var(--gray-p);
     font-family: var(--text-p);
     font-size: 17px;
     font-weight: bold;
-    margin-top: 40px;
 }
 
-.whoisme-container__title::selection,
-.whoisme-container__content::selection,
-.whatdoido-container__title::selection,
-.whatdoido-container__content::selection,
-.skills-container__title::selection,
-.skills-container__content::selection,
-.hobbies-container__title::selection,
-.hobbies-container__content::selection {
+.doubts-container__title::selection,
+.doubts-container__questions::selection,
+.doubts-container__content::selection {
     color: var(--lightblue-p);
     background-color: var(--gray-p);
 }
