@@ -1,13 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 /*VARIÁVEIS*/
 :root {
     /*CORES PRINCIPAIS*/
     --gray-p: #66717E;
     --white-p: #FFFCF9;
     --lightblue-p: #B1EDE8;
-    --black-p: #0B090B; 
+    --black-p: #0B090B;
     
     /*FONTE*/
-    --text-p: sans-serif;
+    --text-p: 'Poppins', sans-serif;
 }
 
 body {
@@ -56,50 +58,50 @@ body {
 
 .whoisme-container {
     width: 350px;
-    height: 280px;
+    height: 350px;
     margin-top: 150px;
     margin-left: 200px;
     background-color: var(--white-p);
     border: 3px solid var(--black-p);
     border-radius: 8px;
-    padding: 30px;
+    padding: 25px;
     box-shadow: -9px 9px 8px var(--black-p);
 }
 
 .whatdoido-container {
     width: 350px;
-    height: 380px;
+    height: 450px;
     margin-top: 50px;
     margin-left: 850px;
     background-color: var(--white-p);
     border: 3px solid var(--black-p);
     border-radius: 8px;
-    padding: 30px;
+    padding: 25px;
     box-shadow: 9px 9px 8px var(--black-p);
 }
 
 .skills-container {
     width: 350px;
-    height: 330px;
+    height: 425px;
     margin-top: 50px;
     margin-left: 200px;
     background-color: var(--white-p);
     border: 3px solid var(--black-p);
     border-radius: 8px;
-    padding: 30px;
+    padding: 25px;
     box-shadow: -9px 9px 8px var(--black-p);
 }
 
 .hobbies-container {
     width: 350px;
-    height: 280px;
+    height: 330px;
     margin-top: 50px;
     margin-left: 850px;
     margin-bottom: 100px;
     background-color: var(--white-p);
     border: 3px solid var(--black-p);
     border-radius: 8px;
-    padding: 30px;
+    padding: 25px;
     box-shadow: 9px 9px 8px var(--black-p);
 }
 
@@ -122,7 +124,7 @@ body {
     font-family: var(--text-p);
     font-size: 17px;
     font-weight: bold;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 .whoisme-container__title::selection,

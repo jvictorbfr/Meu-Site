@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 /*VARIÁVEIS*/
 :root {
     /*CORES PRINCIPAIS*/
@@ -7,7 +9,7 @@
     --black-p: #0B090B;
 
     /*FONTE*/
-    --text-p: sans-serif;
+    --text-p: 'Poppins', sans-serif;
 }
 
 body {
@@ -100,8 +102,7 @@ body {
 .doubts-container__content {
     color: var(--gray-p);
     font-family: var(--text-p);
-    font-size: 17px;
-    font-weight: bold;
+    font-size: 15px;
 }
 
 .doubts-container__title::selection,

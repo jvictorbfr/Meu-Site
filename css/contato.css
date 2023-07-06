@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 /*VARIÁVEIS*/
 :root {
     /*CORES PRINCIPAIS*/
@@ -7,11 +9,12 @@
     --black-p: #0B090B; 
     
     /*FONTE*/
-    --text-p: sans-serif;
+    --text-p: 'Poppins', sans-serif;
 }
 
 body {
     background-color: var(--gray-p);
+    overflow-y: hidden;
 }
 
 .nav-site {
@@ -66,7 +69,7 @@ body {
     flex-direction: column;
     align-items: center;
     width: 350px;
-    height: 270px;
+    height: 300px;
     margin: 200px auto;
     background-color: var(--white-p);
     border-radius: 1px;
@@ -96,6 +99,7 @@ body {
     width: 70px;
     height: 45px;
     user-select: none;
+    margin-left: -13px;
 }
 
 .socialmedia-container__instagram__link,
@@ -119,5 +123,4 @@ body {
     cursor: pointer;
     text-decoration: none;
     user-select: none;
-    margin-right: 15px;
 }

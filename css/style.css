@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 /*VARIÁVEIS*/
 :root {
     /*CORES PRINCIPAIS*/
@@ -7,7 +9,7 @@
     --black-p: #0B090B; 
     
     /*FONTE*/
-    --text-p: sans-serif;
+    --text-p: 'Poppins', sans-serif;
 }
 
 body {
