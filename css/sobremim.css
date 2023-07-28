@@ -7,7 +7,7 @@
     --white-p: #FFFCF9;
     --lightblue-p: #B1EDE8;
     --black-p: #0B090B;
-    
+
     /*FONTE*/
     --text-p: 'Poppins', sans-serif;
 }
@@ -82,7 +82,7 @@ body {
 
 .skills-container {
     width: 350px;
-    height: 425px;
+    height: 455px;
     margin-top: 50px;
     margin-left: 200px;
     background-color: var(--white-p);
